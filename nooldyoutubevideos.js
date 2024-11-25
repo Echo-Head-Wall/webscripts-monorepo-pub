@@ -4,7 +4,7 @@
 // @description Removes any YouTube videos older than 1 day from subscription feed
 // @grant       none
 // @version     1.0
-// @include     https://www.youtube.com/feed/subscriptions
+// @include     https://www.youtube.com/*
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js
 // ==/UserScript==
 
