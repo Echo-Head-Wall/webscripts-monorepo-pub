@@ -19,7 +19,10 @@
             if (timeText.includes('days ago') || 
                 timeText.includes('weeks ago') || 
                 timeText.includes('months ago') || 
-                timeText.includes('years ago')) {
+                timeText.includes('years ago')) || 
+                timeText.includes('week ago') || 
+                timeText.includes('month ago') || 
+                timeText.includes('year ago')){
                 $(this).css({
                     'display': 'none',
                     'visibility': 'hidden'
